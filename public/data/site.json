@@ -1,0 +1,704 @@
+{
+  "generatedAt": "2026-11-12T02:26:05.396Z",
+  "mode": "static",
+  "overview": {
+    "totalDrops": 12,
+    "totalViews": 1076,
+    "totalClicks": 245,
+    "totalVisitors": 507,
+    "totalCategories": 4,
+    "views": 292,
+    "clicks": 74,
+    "visits": 319,
+    "series": [
+      {
+        "day": "2026-11-06",
+        "views": 55,
+        "clicks": 18,
+        "visits": 64
+      },
+      {
+        "day": "2026-11-07",
+        "views": 73,
+        "clicks": 19,
+        "visits": 72
+      },
+      {
+        "day": "2026-11-08",
+        "views": 28,
+        "clicks": 9,
+        "visits": 33
+      },
+      {
+        "day": "2026-11-09",
+        "views": 91,
+        "clicks": 16,
+        "visits": 97
+      },
+      {
+        "day": "2026-11-10",
+        "views": 43,
+        "clicks": 10,
+        "visits": 47
+      },
+      {
+        "day": "2026-11-11",
+        "views": 1,
+        "clicks": 1,
+        "visits": 4
+      },
+      {
+        "day": "2026-11-12",
+        "views": 1,
+        "clicks": 1,
+        "visits": 2
+      }
+    ],
+    "updatedAt": "2026-11-12T02:26:05.396Z"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "slug": "steam",
+      "name": "STEAM",
+      "description": "Drops that live on Steam — demo keys, free weekends, workshop kits and official store discoveries.",
+      "accent": "#38BDF8",
+      "icon": "steam",
+      "drops": 4,
+      "views": 697,
+      "clicks": 161
+    },
+    {
+      "id": 2,
+      "slug": "xbox",
+      "name": "XBOX",
+      "description": "Game Pass perks, seasonal rewards and official Xbox destinations, curated for console players.",
+      "accent": "#22C55E",
+      "icon": "xbox",
+      "drops": 3,
+      "views": 254,
+      "clicks": 53
+    },
+    {
+      "id": 3,
+      "slug": "cookies",
+      "name": "COOKIES",
+      "description": "Cookie-safety documentation and harmless downloadable text resources. We never list credentials, session tokens or authentication cookies.",
+      "accent": "#F59E0B",
+      "icon": "cookie",
+      "drops": 3,
+      "views": 80,
+      "clicks": 18
+    },
+    {
+      "id": 4,
+      "slug": "other",
+      "name": "OTHER",
+      "description": "Community tools, wallpaper vaults, templates and everything that does not fit the other lanes.",
+      "accent": "#A855F7",
+      "icon": "grid",
+      "drops": 2,
+      "views": 45,
+      "clicks": 13
+    }
+  ],
+  "drops": [
+    {
+      "id": 1,
+      "slug": "chromatic-drift-demo-key",
+      "title": "Chromatic Drift — Demo Key Drop",
+      "description": "Get instant access to the Chromatic Drift demo build on Steam. A neon arcade racer with synthwave tracks, ghost leaderboards and a free weekend window. Keys are released in waves on the official store page.",
+      "thumbnail": "/assets/drops/chromatic-drift.svg",
+      "externalUrl": "https://store.steampowered.com/",
+      "views": 219,
+      "clicks": 47,
+      "featured": true,
+      "status": "published",
+      "publishedAt": "2026-11-09T10:00:00.000Z",
+      "createdAt": "2026-11-08T09:00:00.000Z",
+      "updatedAt": "2026-11-09T10:00:00.000Z",
+      "category": {
+        "id": 1,
+        "slug": "steam",
+        "name": "STEAM",
+        "accent": "#38BDF8",
+        "icon": "steam"
+      },
+      "externalHost": "store.steampowered.com"
+    },
+    {
+      "id": 5,
+      "slug": "game-pass-monthly-perk-pack",
+      "title": "Game Pass Monthly — Perk Pack",
+      "description": "This month's Game Pass perks have landed: in-game currency bundles, cosmetic packs and member-only trials. Redeem each perk from the official Xbox dashboard before it rotates out.",
+      "thumbnail": "/assets/drops/game-pass.svg",
+      "externalUrl": "https://www.xbox.com/en-US/xbox-game-pass",
+      "views": 118,
+      "clicks": 25,
+      "featured": true,
+      "status": "published",
+      "publishedAt": "2026-11-08T10:00:00.000Z",
+      "createdAt": "2026-11-07T09:00:00.000Z",
+      "updatedAt": "2026-11-08T10:00:00.000Z",
+      "category": {
+        "id": 2,
+        "slug": "xbox",
+        "name": "XBOX",
+        "accent": "#22C55E",
+        "icon": "xbox"
+      },
+      "externalHost": "xbox.com"
+    },
+    {
+      "id": 2,
+      "slug": "steam-replay-year-in-gaming",
+      "title": "Steam Replay — Your Year in Gaming",
+      "description": "Unlock a personalised recap of every hour you sank into your Steam library this year. Track playtime milestones, rarest achievements and the genres that owned your weekends.",
+      "thumbnail": "/assets/drops/steam-replay.svg",
+      "externalUrl": "https://store.steampowered.com/",
+      "views": 195,
+      "clicks": 39,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-11-07T10:00:00.000Z",
+      "createdAt": "2026-11-06T09:00:00.000Z",
+      "updatedAt": "2026-11-07T10:00:00.000Z",
+      "category": {
+        "id": 1,
+        "slug": "steam",
+        "name": "STEAM",
+        "accent": "#38BDF8",
+        "icon": "steam"
+      },
+      "externalHost": "store.steampowered.com"
+    },
+    {
+      "id": 8,
+      "slug": "cookie-hygiene-handbook",
+      "title": "Cookie Hygiene Handbook",
+      "description": "A plain-language handbook on browser cookies: what they are, which ones are safe, how to audit them and how to clean up your browser in five minutes. Documentation only — no credentials, no session tokens.",
+      "thumbnail": "/assets/drops/cookie-handbook.svg",
+      "externalUrl": "https://www.allaboutcookies.org/",
+      "views": 28,
+      "clicks": 8,
+      "featured": true,
+      "status": "published",
+      "publishedAt": "2026-11-06T10:00:00.000Z",
+      "createdAt": "2026-11-05T09:00:00.000Z",
+      "updatedAt": "2026-11-06T10:00:00.000Z",
+      "category": {
+        "id": 3,
+        "slug": "cookies",
+        "name": "COOKIES",
+        "accent": "#F59E0B",
+        "icon": "cookie"
+      },
+      "externalHost": "allaboutcookies.org"
+    },
+    {
+      "id": 11,
+      "slug": "creator-wallpaper-vault-vol-1",
+      "title": "Creator Wallpaper Vault — Vol. 1",
+      "description": "A free 4K wallpaper collection for your setup: neon cityscapes, abstract hardware macros and moody key art. Licensed for personal use.",
+      "thumbnail": "/assets/drops/wallpaper-vault.svg",
+      "externalUrl": "https://unsplash.com/wallpapers",
+      "views": 20,
+      "clicks": 7,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-11-05T10:00:00.000Z",
+      "createdAt": "2026-11-04T09:00:00.000Z",
+      "updatedAt": "2026-11-05T10:00:00.000Z",
+      "category": {
+        "id": 4,
+        "slug": "other",
+        "name": "OTHER",
+        "accent": "#A855F7",
+        "icon": "grid"
+      },
+      "externalHost": "unsplash.com"
+    },
+    {
+      "id": 3,
+      "slug": "neon-circuit-free-weekend",
+      "title": "Neon Circuit — Free Weekend Vault",
+      "description": "The full Neon Circuit track pack is free to play this weekend. Claim the event loot, test every chassis and keep the exclusive neon livery before the vault closes.",
+      "thumbnail": "/assets/drops/neon-circuit.svg",
+      "externalUrl": "https://store.steampowered.com/",
+      "views": 156,
+      "clicks": 39,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-11-04T10:00:00.000Z",
+      "createdAt": "2026-11-03T09:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "category": {
+        "id": 1,
+        "slug": "steam",
+        "name": "STEAM",
+        "accent": "#38BDF8",
+        "icon": "steam"
+      },
+      "externalHost": "store.steampowered.com"
+    },
+    {
+      "id": 6,
+      "slug": "halo-infinite-field-guide",
+      "title": "Halo Infinite — Season Field Guide",
+      "description": "A spoiler-free field guide to the current Halo Infinite season: new arena layouts, ranked placement tips and the fastest route through the battle pass.",
+      "thumbnail": "/assets/drops/halo-season.svg",
+      "externalUrl": "https://www.xbox.com/en-US/games/halo-infinite",
+      "views": 89,
+      "clicks": 18,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-11-02T10:00:00.000Z",
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-02T10:00:00.000Z",
+      "category": {
+        "id": 2,
+        "slug": "xbox",
+        "name": "XBOX",
+        "accent": "#22C55E",
+        "icon": "xbox"
+      },
+      "externalHost": "xbox.com"
+    },
+    {
+      "id": 9,
+      "slug": "consent-banner-ux-checklist",
+      "title": "Consent Banner UX Checklist",
+      "description": "A printable checklist for designing cookie consent banners that are honest, accessible and compliant. Built for indie game studios and community sites.",
+      "thumbnail": "/assets/drops/consent-checklist.svg",
+      "externalUrl": "https://gdpr.eu/cookies/",
+      "views": 22,
+      "clicks": 6,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-11-01T10:00:00.000Z",
+      "createdAt": "2026-10-31T09:00:00.000Z",
+      "updatedAt": "2026-11-01T10:00:00.000Z",
+      "category": {
+        "id": 3,
+        "slug": "cookies",
+        "name": "COOKIES",
+        "accent": "#F59E0B",
+        "icon": "cookie"
+      },
+      "externalHost": "gdpr.eu"
+    },
+    {
+      "id": 4,
+      "slug": "pixel-forge-workshop-kit",
+      "title": "Pixel Forge — Workshop Starter Kit",
+      "description": "A curated starter kit for creators: tile palettes, animation sheets and a publishing checklist that takes your first Steam Workshop item from sketch to release.",
+      "thumbnail": "/assets/drops/pixel-forge.svg",
+      "externalUrl": "https://steamcommunity.com/workshop/",
+      "views": 127,
+      "clicks": 36,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-10-30T10:00:00.000Z",
+      "createdAt": "2026-10-29T09:00:00.000Z",
+      "updatedAt": "2026-10-30T10:00:00.000Z",
+      "category": {
+        "id": 1,
+        "slug": "steam",
+        "name": "STEAM",
+        "accent": "#38BDF8",
+        "icon": "steam"
+      },
+      "externalHost": "steamcommunity.com"
+    },
+    {
+      "id": 7,
+      "slug": "forza-livery-blueprint",
+      "title": "Forza Horizon — Livery Blueprint",
+      "description": "Download-ready livery blueprints for the latest Forza Horizon festival season. Layer maps, paint codes and share codes included — remix them for your own garage.",
+      "thumbnail": "/assets/drops/forza-livery.svg",
+      "externalUrl": "https://www.xbox.com/en-US/games/forza-horizon-5",
+      "views": 47,
+      "clicks": 10,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-10-27T10:00:00.000Z",
+      "createdAt": "2026-10-26T09:00:00.000Z",
+      "updatedAt": "2026-10-27T10:00:00.000Z",
+      "category": {
+        "id": 2,
+        "slug": "xbox",
+        "name": "XBOX",
+        "accent": "#22C55E",
+        "icon": "xbox"
+      },
+      "externalHost": "xbox.com"
+    },
+    {
+      "id": 12,
+      "slug": "esports-bracket-toolkit",
+      "title": "Esports Bracket Toolkit",
+      "description": "Ready-to-print bracket templates for 8, 16 and 32 player tournaments, plus a seeding sheet and a stream overlay guide for community organisers.",
+      "thumbnail": "/assets/drops/bracket-toolkit.svg",
+      "externalUrl": "https://www.printyourbracket.com/",
+      "views": 25,
+      "clicks": 6,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-10-25T10:00:00.000Z",
+      "createdAt": "2026-10-24T09:00:00.000Z",
+      "updatedAt": "2026-10-25T10:00:00.000Z",
+      "category": {
+        "id": 4,
+        "slug": "other",
+        "name": "OTHER",
+        "accent": "#A855F7",
+        "icon": "grid"
+      },
+      "externalHost": "printyourbracket.com"
+    },
+    {
+      "id": 10,
+      "slug": "privacy-first-analytics-guide",
+      "title": "Privacy-First Analytics Guide",
+      "description": "Learn how modern sites measure traffic without fingerprinting or invasive cookies. A short guide covering cookieless analytics, retention and consent.",
+      "thumbnail": "/assets/drops/privacy-analytics.svg",
+      "externalUrl": "https://plausible.io/privacy-focused-web-analytics",
+      "views": 30,
+      "clicks": 4,
+      "featured": false,
+      "status": "published",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "createdAt": "2026-10-21T09:00:00.000Z",
+      "updatedAt": "2026-10-22T10:00:00.000Z",
+      "category": {
+        "id": 3,
+        "slug": "cookies",
+        "name": "COOKIES",
+        "accent": "#F59E0B",
+        "icon": "cookie"
+      },
+      "externalHost": "plausible.io"
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "slug": "chromatic-drift-demo-key",
+      "title": "Chromatic Drift — Demo Key Drop",
+      "description": "Get instant access to the Chromatic Drift demo build on Steam. A neon arcade racer with synthwave tracks, ghost leaderboards and a free weekend window. Keys are released in waves on the official store page.",
+      "thumbnail": "/assets/drops/chromatic-drift.svg",
+      "views": 219,
+      "clicks": 47,
+      "published_at": "2026-11-09T10:00:00.000Z",
+      "category": "STEAM",
+      "category_slug": "steam",
+      "category_accent": "#38BDF8"
+    },
+    {
+      "id": 2,
+      "slug": "steam-replay-year-in-gaming",
+      "title": "Steam Replay — Your Year in Gaming",
+      "description": "Unlock a personalised recap of every hour you sank into your Steam library this year. Track playtime milestones, rarest achievements and the genres that owned your weekends.",
+      "thumbnail": "/assets/drops/steam-replay.svg",
+      "views": 195,
+      "clicks": 39,
+      "published_at": "2026-11-07T10:00:00.000Z",
+      "category": "STEAM",
+      "category_slug": "steam",
+      "category_accent": "#38BDF8"
+    },
+    {
+      "id": 3,
+      "slug": "neon-circuit-free-weekend",
+      "title": "Neon Circuit — Free Weekend Vault",
+      "description": "The full Neon Circuit track pack is free to play this weekend. Claim the event loot, test every chassis and keep the exclusive neon livery before the vault closes.",
+      "thumbnail": "/assets/drops/neon-circuit.svg",
+      "views": 156,
+      "clicks": 39,
+      "published_at": "2026-11-04T10:00:00.000Z",
+      "category": "STEAM",
+      "category_slug": "steam",
+      "category_accent": "#38BDF8"
+    },
+    {
+      "id": 4,
+      "slug": "pixel-forge-workshop-kit",
+      "title": "Pixel Forge — Workshop Starter Kit",
+      "description": "A curated starter kit for creators: tile palettes, animation sheets and a publishing checklist that takes your first Steam Workshop item from sketch to release.",
+      "thumbnail": "/assets/drops/pixel-forge.svg",
+      "views": 127,
+      "clicks": 36,
+      "published_at": "2026-10-30T10:00:00.000Z",
+      "category": "STEAM",
+      "category_slug": "steam",
+      "category_accent": "#38BDF8"
+    },
+    {
+      "id": 5,
+      "slug": "game-pass-monthly-perk-pack",
+      "title": "Game Pass Monthly — Perk Pack",
+      "description": "This month's Game Pass perks have landed: in-game currency bundles, cosmetic packs and member-only trials. Redeem each perk from the official Xbox dashboard before it rotates out.",
+      "thumbnail": "/assets/drops/game-pass.svg",
+      "views": 118,
+      "clicks": 25,
+      "published_at": "2026-11-08T10:00:00.000Z",
+      "category": "XBOX",
+      "category_slug": "xbox",
+      "category_accent": "#22C55E"
+    },
+    {
+      "id": 6,
+      "slug": "halo-infinite-field-guide",
+      "title": "Halo Infinite — Season Field Guide",
+      "description": "A spoiler-free field guide to the current Halo Infinite season: new arena layouts, ranked placement tips and the fastest route through the battle pass.",
+      "thumbnail": "/assets/drops/halo-season.svg",
+      "views": 89,
+      "clicks": 18,
+      "published_at": "2026-11-02T10:00:00.000Z",
+      "category": "XBOX",
+      "category_slug": "xbox",
+      "category_accent": "#22C55E"
+    },
+    {
+      "id": 7,
+      "slug": "forza-livery-blueprint",
+      "title": "Forza Horizon — Livery Blueprint",
+      "description": "Download-ready livery blueprints for the latest Forza Horizon festival season. Layer maps, paint codes and share codes included — remix them for your own garage.",
+      "thumbnail": "/assets/drops/forza-livery.svg",
+      "views": 47,
+      "clicks": 10,
+      "published_at": "2026-10-27T10:00:00.000Z",
+      "category": "XBOX",
+      "category_slug": "xbox",
+      "category_accent": "#22C55E"
+    },
+    {
+      "id": 10,
+      "slug": "privacy-first-analytics-guide",
+      "title": "Privacy-First Analytics Guide",
+      "description": "Learn how modern sites measure traffic without fingerprinting or invasive cookies. A short guide covering cookieless analytics, retention and consent.",
+      "thumbnail": "/assets/drops/privacy-analytics.svg",
+      "views": 30,
+      "clicks": 4,
+      "published_at": "2026-10-22T10:00:00.000Z",
+      "category": "COOKIES",
+      "category_slug": "cookies",
+      "category_accent": "#F59E0B"
+    },
+    {
+      "id": 8,
+      "slug": "cookie-hygiene-handbook",
+      "title": "Cookie Hygiene Handbook",
+      "description": "A plain-language handbook on browser cookies: what they are, which ones are safe, how to audit them and how to clean up your browser in five minutes. Documentation only — no credentials, no session tokens.",
+      "thumbnail": "/assets/drops/cookie-handbook.svg",
+      "views": 28,
+      "clicks": 8,
+      "published_at": "2026-11-06T10:00:00.000Z",
+      "category": "COOKIES",
+      "category_slug": "cookies",
+      "category_accent": "#F59E0B"
+    },
+    {
+      "id": 12,
+      "slug": "esports-bracket-toolkit",
+      "title": "Esports Bracket Toolkit",
+      "description": "Ready-to-print bracket templates for 8, 16 and 32 player tournaments, plus a seeding sheet and a stream overlay guide for community organisers.",
+      "thumbnail": "/assets/drops/bracket-toolkit.svg",
+      "views": 25,
+      "clicks": 6,
+      "published_at": "2026-10-25T10:00:00.000Z",
+      "category": "OTHER",
+      "category_slug": "other",
+      "category_accent": "#A855F7"
+    }
+  ],
+  "activity": {
+    "series": [
+      {
+        "day": "2026-10-14",
+        "views": 39,
+        "clicks": 5,
+        "visits": 29
+      },
+      {
+        "day": "2026-10-15",
+        "views": 28,
+        "clicks": 7,
+        "visits": 25
+      },
+      {
+        "day": "2026-10-16",
+        "views": 26,
+        "clicks": 5,
+        "visits": 28
+      },
+      {
+        "day": "2026-10-17",
+        "views": 13,
+        "clicks": 0,
+        "visits": 14
+      },
+      {
+        "day": "2026-10-18",
+        "views": 30,
+        "clicks": 4,
+        "visits": 27
+      },
+      {
+        "day": "2026-10-19",
+        "views": 17,
+        "clicks": 0,
+        "visits": 24
+      },
+      {
+        "day": "2026-10-20",
+        "views": 18,
+        "clicks": 6,
+        "visits": 23
+      },
+      {
+        "day": "2026-10-21",
+        "views": 34,
+        "clicks": 10,
+        "visits": 25
+      },
+      {
+        "day": "2026-10-22",
+        "views": 48,
+        "clicks": 13,
+        "visits": 41
+      },
+      {
+        "day": "2026-10-23",
+        "views": 27,
+        "clicks": 8,
+        "visits": 35
+      },
+      {
+        "day": "2026-10-24",
+        "views": 17,
+        "clicks": 4,
+        "visits": 15
+      },
+      {
+        "day": "2026-10-25",
+        "views": 36,
+        "clicks": 6,
+        "visits": 44
+      },
+      {
+        "day": "2026-10-26",
+        "views": 23,
+        "clicks": 3,
+        "visits": 18
+      },
+      {
+        "day": "2026-10-27",
+        "views": 22,
+        "clicks": 3,
+        "visits": 16
+      },
+      {
+        "day": "2026-10-28",
+        "views": 29,
+        "clicks": 11,
+        "visits": 29
+      },
+      {
+        "day": "2026-10-29",
+        "views": 29,
+        "clicks": 6,
+        "visits": 28
+      },
+      {
+        "day": "2026-10-30",
+        "views": 19,
+        "clicks": 10,
+        "visits": 18
+      },
+      {
+        "day": "2026-10-31",
+        "views": 37,
+        "clicks": 3,
+        "visits": 26
+      },
+      {
+        "day": "2026-11-01",
+        "views": 40,
+        "clicks": 11,
+        "visits": 31
+      },
+      {
+        "day": "2026-11-02",
+        "views": 40,
+        "clicks": 3,
+        "visits": 27
+      },
+      {
+        "day": "2026-11-03",
+        "views": 30,
+        "clicks": 6,
+        "visits": 25
+      },
+      {
+        "day": "2026-11-04",
+        "views": 42,
+        "clicks": 9,
+        "visits": 38
+      },
+      {
+        "day": "2026-11-05",
+        "views": 101,
+        "clicks": 20,
+        "visits": 67
+      },
+      {
+        "day": "2026-11-06",
+        "views": 55,
+        "clicks": 18,
+        "visits": 64
+      },
+      {
+        "day": "2026-11-07",
+        "views": 73,
+        "clicks": 19,
+        "visits": 72
+      },
+      {
+        "day": "2026-11-08",
+        "views": 28,
+        "clicks": 9,
+        "visits": 33
+      },
+      {
+        "day": "2026-11-09",
+        "views": 91,
+        "clicks": 16,
+        "visits": 97
+      },
+      {
+        "day": "2026-11-10",
+        "views": 43,
+        "clicks": 10,
+        "visits": 47
+      },
+      {
+        "day": "2026-11-11",
+        "views": 1,
+        "clicks": 1,
+        "visits": 4
+      },
+      {
+        "day": "2026-11-12",
+        "views": 1,
+        "clicks": 1,
+        "visits": 2
+      }
+    ]
+  },
+  "setup": {
+    "owners": 3,
+    "limit": 3,
+    "ready": true
+  }
+}
